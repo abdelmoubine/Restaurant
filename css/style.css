@@ -1,0 +1,103 @@
+body{font-size: 18px;}
+html{font-family:serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+img{max-width:100%;border-style:none}
+audio,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+article,aside,footer,header,nav,section{display:block}
+button,input,optgroup,select,textarea{font-family:serif;font-size:100%;line-height:1.15;margin:0}
+button,input{outline:none!important;overflow:visible}
+button,select{text-transform:none}
+button,html [type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}
+button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}
+button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted}
+.fa {display: inline-block;font: normal normal normal 14px/1 FontAwesome;font-size: inherit;text-rendering: auto;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+body::-webkit-scrollbar{background-color:#ffffff;width:5px}
+body::-webkit-scrollbar-thumb{background:#0081fa}
+body::-moz-selection{background:#0081fa;color:#FFF}
+::-moz-selection{background:#0081fa;color:#FFF}
+::selection{background:#0079fa;color:#FFF}
+
+.container-fluid{
+    margin:0 auto;}
+
+.container-fluid:before,.container-fluid:after{content:'';display:block;
+    height:3px;background:-webkit-linear-gradient(to right,#04c9f1,#36bb27);
+    background:-o-linear-gradient(to right,#04c9f1,#36bb27);
+    background:-moz-linear-gradient(to right,#04c9f1,#36bb27);
+    background:linear-gradient(to right,#04c9f1,#36bb27)}
+
+.phone{text-decoration: none; color:white ;}
+.phone:hover{color: red;}
+/* ------ Social Colors ------ */
+.social-static {margin-top: 5px;white-space: nowrap;overflow-x: hidden; overflow-y: hidden;}
+.social{font-size:0}
+.social li{display:inline-block;margin:0 2px}
+.social li i{color:#FFF;width:28px;height:28px;line-height:28px;margin-bottom:5px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;display:inline-block;text-align:center;font-size:16px}
+
+.social .fa-vk{background-color:#45668e}
+.social .fa-facebook{background-color:#3b5998}
+.social .fa-twitter{background-color:#1da1f2}
+.social .fa-linkedin{background-color:#0976b4}
+.social .fa-github{background-color:#000000}
+.social .fa-youtube{background-color:#e52d27}
+.social .fa-instagram{background-color:#7c38af;background:radial-gradient(circle at 0 130%, 
+    #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)}
+.social .fa-behance{background-color:#009fff}
+.social .fa-whatsapp{background-color:#189d0e}
+.social .fa-paypal{background-color:#193685}
+.social .fa-website{background-color:#444444}
+.fa-website:before{content:"\f0ac"}
+
+.social-static li:hover{-webkit-animation:abdelmoubineSocialMedia .2s ease-in-out;-moz-animation:abdelmoubineSocialMedia .2s ease-in-out;-o-animation:abdelmoubineSocialMedia .2s ease-in-out;animation:abdelmoubineSocialMedia .2s ease-in-out}
+@-webkit-keyframes abdelmoubineSocialMedia{
+50%{-webkit-transform:scale(0.7);transform:scale(0.7)}
+100%{-webkit-transform:scale(1.5);transform:cale(1.5)}
+}
+@-moz-keyframes abdelmoubineSocialMedia{
+50%{-webkit-transform:scale(0.7);-moz-transform:scale(0.7);transform:scale(0.7)}
+100%{-webkit-transform:scale(1.5);-moz-transform:cale(1.5);transform:cale(1.5)}
+}
+@-o-keyframes abdelmoubineSocialMedia{
+50%{-webkit-transform:scale(0.7);-o-transform:scale(0.7);transform:scale(0.7)}
+100%{-webkit-transform:scale(1.5);-o-transform:cale(1.5);transform:cale(1.5)}
+}
+@keyframes abdelmoubineSocialMedia{
+50%{-webkit-transform:scale(0.7);-moz-transform:scale(0.7);-o-transform:scale(0.7);transform:scale(0.7)}
+100%{-webkit-transform:scale(1.5);-moz-transform:cale(1.5);-o-transform:cale(1.5);transform:cale(1.5)}
+}
+
+.abdelmoubineZoom{
+    transition: transform .2s;
+  }
+  
+.abdelmoubineZoom:hover {
+    transform: scale(1.1);
+}
+
+li a{
+    text-decoration: none;
+}
+
+.link-secondary{
+    color: #f26522!important;
+}
+
+.link-secondary:hover{
+    color: #0db9c2!important;
+}
+
+div > h5{
+    color: #f8f8f8;
+}
+
+#abdelmoubine{
+    border-radius: 0!important;
+    background: url('../img/hero-restaurant.jpg') no-repeat;
+    max-width: 1600px;
+    height: 500px;
+}
+
+.copyright{
+    color: #0dbdd1;
+    text-align: center;
+}
